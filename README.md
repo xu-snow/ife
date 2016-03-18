@@ -1,2 +1,6 @@
 # ife
-ife 任务提交http://ife.baidu.com/task/all
+![队伍logo][1]
+[任务提交](http://ife.baidu.com/task/all)
+
+
+  [1]: logo_panda.jpg
