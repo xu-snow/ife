@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+</head>
+<style>
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+.contain {
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.main {
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-color: #fc0;
+    border-radius: 100%;
+}
+
+.right {
+    left: 100%;
+    top: 100%
+}
+</style>
+</body>
+<div class="contain">
+    <div class="main"></div>
+    <div class="right main"></div>
+</div>
+
+</html>
